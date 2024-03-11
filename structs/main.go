@@ -54,6 +54,7 @@ func main() {
 }
 
 func (c car) print() {
+	// %+v will flatten the fields of struct
 	fmt.Printf("%+v\n", c)
 }
 
